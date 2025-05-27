@@ -25,7 +25,7 @@ const Home = () => {
                         When we unite in thought, even the moon becomes ours to grasp.
                     </p>
                     <h1 className="display-5 mt-4 text-white" style={{fontFamily:'system-ui, sans-sripf', fontWeight:700}}> 
-                        Harada Kenji 
+                        Moon Catch 
                     </h1> 
                     <p>Full Stack Developer</p>
                     <Nav className="display-6 text-white justify-content-center">
