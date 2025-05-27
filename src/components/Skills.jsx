@@ -8,7 +8,7 @@ import { faCogs }
 import { faGithub, faGoogle, faHtml5, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 import './style.css'; 
-import { Container, Badge, Row, Col, Card, ListGroup, Image } from 'react-bootstrap';
+import { Container, Badge, Row, Col, Card, ListGroup, Image, Button } from 'react-bootstrap';
 import { skills_data } from '../data/Skill';
 
 
@@ -32,15 +32,24 @@ const Skills = () => {
                                             <ListGroup.Item 
                                             action 
                                             as="li" 
-                                            className="mt-1 d-flex border-0 justify-content-between align-items-center bg-secondary text-white">
+                                            className="mt-1 d-flex border-0 align-items-center" style={{backgroundColor:'#ddd'}}>
                                                 <div className='image-container'>
-                                                    <img src={item.img} alt={item.name} height={50} width={50} 
+                                                    <img src={item.img} alt={item.name} height={70} width={70} 
                                                     />
                                                 </div>
                                                 <div className='m-2'>
                                                     <div className="fw-bold mb-2">{item.name}</div>
-                                                    <Badge bg="success">{item.years} years of experience</Badge>
-                                                    <span className='badge backcolor-purple'>frontend</span>
+                                                    <Button variant='outline-dark'>
+                                                        <Badge 
+                                                            bg={item.years>5 ? 'info' : item.years > 3 ? 'success' : 'warning'}
+                                                            text={item.years>5 ? 'white' : item.years > 3 ? 'white' : 'dark'}
+                                                            pill={true}
+                                                        >
+                                                            {item.years}+
+                                                        </Badge> years of exp
+                                                    </Button>
+                                                    
+                                                    {/* <span className='badge backcolor-purple'>frontend</span> */}
                                                 </div>
                                                 
                                             </ListGroup.Item>

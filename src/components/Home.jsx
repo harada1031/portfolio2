@@ -6,7 +6,7 @@ import { faBook, faUser }
     from '@fortawesome/free-solid-svg-icons'; 
 import './style.css'; 
 import { Container, Row, Nav } from 'react-bootstrap';
-import { faGithub, faGoogle, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faGoogle, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => { 
     return ( 
@@ -33,12 +33,12 @@ const Home = () => {
                         <FontAwesomeIcon icon={faGoogle} />
                         </Nav.Link>
                         <Nav.Link href="https://twitter.com/HaradaK92" target='_blank'>
-                        <FontAwesomeIcon icon={faTwitter} />
+                        <FontAwesomeIcon icon={faLinkedin} />
                         </Nav.Link>
-                        <Nav.Link href="https://github.com/HaradaK92" target='_blank'>
+                        <Nav.Link href="https://github.com/DragonKnight0522" target='_blank'>
                         <FontAwesomeIcon icon={faGithub} />
                         </Nav.Link>
-                        <Nav.Link href="https://resume.com/HaradaK92" target='_blank'>
+                        <Nav.Link href="./temp.pdf" target='_blank'>
                         <FontAwesomeIcon icon={faBook} />
                         </Nav.Link>
                         
