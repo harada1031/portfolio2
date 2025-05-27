@@ -2,7 +2,8 @@
 import React from 'react'; 
 import { Container } from 'react-bootstrap';
 import './style.css'; 
-import ProjectCard from './ProjectCard';
+// import ProjectCard from './ProjectCard';
+import ProjectCard from './ProjectCard.jsx'; // if Render still can't find it
 import { projectDetails } from '../data/Projects';
 
 const Projects = () => { 
