@@ -22,7 +22,7 @@ body {
 /* About Section Styles */
 #about {
     padding: 0;
-    background-image: url('../assets/vecteezy_moon.jpg');
+    background-image: url('../assets/vecteezy_moon.webp');
     background-size: 100% 100%;
     min-height: 100vh;
     background-position: center;
@@ -243,11 +243,11 @@ body {
 
 /* Skills Section Styles */
 #skills {
-    background-image: url('../assets/vecteezy_darkocean.jpg');
+    background-image: url('../assets/vecteezy_darkocean.webp');
     background-size: 100% 100%;
     min-height: 100vh;
     background-position: center;
-    background-color: #ebd5e7; /* Soft green background */
+    /* background-color: #ebd5e7; Soft green background */
     color: #2C3E50; /* Darker text color for contrast */
 }
 
