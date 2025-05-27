@@ -26,7 +26,7 @@ body {
     background-size: 100% 100%;
     min-height: 100vh;
     background-position: center;
-    background-color: #A8D5BA; /* Soft green background */
+    /* background-color: #A8D5BA;  */
     color: #2C3E50; /* Darker text color for contrast */
 }
 
@@ -123,9 +123,10 @@ body {
     background-size: 100% 100%;
     min-height: 100vh;
     background-position: center;
-    background-color: #A8D5BA; /* Soft green background */
+    /* background-color: #A8D5BA; */
     color: #2C3E50; /* Darker text color for contrast */
 }
+
 
 .section-title {
     font-size: 2.5rem;
@@ -197,7 +198,7 @@ body {
     background-size: 100% 100%;
     min-height: 100vh;
     background-position: center;
-    background-color: #A8D5BA; /* Soft green background */
+    /* background-color: #A8D5BA; Soft green background */
     color: #2C3E50; /* Darker text color for contrast */
 }
 
@@ -249,6 +250,7 @@ body {
     background-position: center;
     /* background-color: #ebd5e7; Soft green background */
     color: #2C3E50; /* Darker text color for contrast */
+    cursor: pointer;
 }
 
 .skills-title {

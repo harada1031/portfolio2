@@ -21,6 +21,7 @@ export const skills_data= [
           {name: 'Django', years: 7, img:'./icons/django.webp'},
           {name: 'Flask', years: 5, img:'./icons/flask.webp'},
           {name: 'RESTful API', years: 7, img:'./icons/restfulapi.webp'},
+          {name: 'Graphql', years: 7, img:'./icons/graphql.webp'},
         ]
       },
       {

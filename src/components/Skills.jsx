@@ -15,17 +15,18 @@ import { skills_data } from '../data/Skill';
 
 const Skills = () => { 
     return ( 
-        <section id='skills'>
+        <section id='skills' >
             <Container fluid
             style={{
                 overflowX: "scroll",
                 textWrap: "nowrap",
-                height: "100vh"
+                height: "100vh",
+                textAlign: 'center'
             }}
         >
                 {skills_data.map((section)=>(
-                        <Card bg={'dark'} text='light' border={section.bordercolor} className='my-4 mx-2' style={{width:350, display: "inline-block"}}>
-                            <Card.Header as='h3'>{section.title}</Card.Header>
+                        <Card bg={'dark'} text='light' border={section.bordercolor} className='my-4 mx-2' style={{width:320, display: "inline-block", textAlign:'left'}}>
+                            <Card.Header as='h4'>{section.title}</Card.Header>
                             <Card.Body>
                                     <ListGroup as="ul">
                                         {section.dataset.map((item, idx)=> (

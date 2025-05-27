@@ -33,8 +33,8 @@ const Contact = () => {
 
     };
     return ( 
-        <section id="contact"> 
-            <Container className="contact-container">
+        <section id="contact" style={{minWidth: '450px'}}> 
+            <Container fluid="sm">
             {/* <Breadcrumbs paths={breadcrumbsPaths} />  */}
             <div style={{padding:'2rem', backgroundColor: 'rgba(10,10,10,0.7)', color:'#fff'}}>
                 <h2 className="section-title">Contact</h2> 
@@ -123,7 +123,7 @@ const Contact = () => {
                         </Nav.Link> */}
                         </div>
                     </Col>
-                </Row>
+                </Row> 
                 
             </div>
             
