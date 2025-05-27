@@ -2,7 +2,7 @@
 // import './App.css';
 import React from 'react'; 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'; 
-import Header from './components/Header'; 
+// import Header from './components/Header'; 
 import Projects from './components/Projects'; 
 import Resume from './components/Resume'; 
 import Contact from './components/Contact'; 

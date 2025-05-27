@@ -1,9 +1,4 @@
-import { height } from '@fortawesome/free-brands-svg-icons/fa42Group';
-
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
-
-function ProjectCard(props) {
+const ProjectCard = (props) => {
 
   return (
     <>
@@ -85,10 +80,10 @@ function ProjectCard(props) {
             <div className='portfolio-info'>
                 <h4>{props.title}</h4>
                 <p>{props.description}</p>
-                <a href={props.image} target="_blank" className='zoom'>
+                <a href={props.image} target="_blank" rel="noreferrer" className='zoom'>
                     <i className="bi bi-zoom-in"></i>
                 </a>
-                <a href={props.link} title="visit" target="_blank" className='visit'>
+                <a href={props.link} title="visit" target="_blank" rel="noreferrer" className='visit'>
                     <i className="bi bi-link-45deg"></i>
                 </a>
             </div>

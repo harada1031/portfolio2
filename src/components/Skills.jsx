@@ -1,14 +1,14 @@
 import React from 'react'; 
-import { FontAwesomeIcon } 
-    from '@fortawesome/react-fontawesome'; 
+// import { FontAwesomeIcon } 
+//     from '@fortawesome/react-fontawesome'; 
 // import { faCode, faLaptopCode } 
 //     from '@fortawesome/free-solid-svg-icons'; 
-import { faCogs } 
-    from '@fortawesome/free-solid-svg-icons'; 
-import { faGithub, faGoogle, faHtml5, faTwitter } from '@fortawesome/free-brands-svg-icons';
+// import { faCogs } 
+//     from '@fortawesome/free-solid-svg-icons'; 
+// import { faGithub, faGoogle, faHtml5, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 import './style.css'; 
-import { Container, Badge, Row, Col, Card, ListGroup, Image, Button } from 'react-bootstrap';
+import { Container, Badge, Card, ListGroup, Button } from 'react-bootstrap';
 import { skills_data } from '../data/Skill';
 
 

@@ -6,12 +6,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import InputGroup from 'react-bootstrap/InputGroup';
 import Row from 'react-bootstrap/Row';
-import { FontAwesomeIcon } 
-    from '@fortawesome/react-fontawesome'; 
-import { faEnvelope, faPhone } 
-    from '@fortawesome/free-solid-svg-icons'; 
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons'; 
-import { Container, Card, Nav } from 'react-bootstrap';
+import { Container } from 'react-bootstrap';
 import './style.css'; 
 
 const Contact = () => { 
@@ -104,7 +99,7 @@ const Contact = () => {
                                 </li>
                                 <li>
                                     <i class="bi bi-github"></i>&nbsp; 
-                                    <a href='https://github.com/DragonKnight0522' target='_blank'  style={{textDecoration:'none', color:'inherit'}}>
+                                    <a href='https://github.com/DragonKnight0522' target='_blank' rel="noreferrer" style={{textDecoration:'none', color:'inherit'}}>
                                         https://github.com/DragonKnight0522'
                                     </a>
                                 </li>

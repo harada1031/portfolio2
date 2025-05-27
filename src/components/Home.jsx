@@ -2,11 +2,11 @@
 import React from 'react'; 
 import { FontAwesomeIcon } 
     from '@fortawesome/react-fontawesome'; 
-import { faBook, faUser } 
+import { faBook } 
     from '@fortawesome/free-solid-svg-icons'; 
 import './style.css'; 
-import { Container, Row, Nav } from 'react-bootstrap';
-import { faGithub, faGoogle, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { Nav } from 'react-bootstrap';
+import { faGithub, faGoogle, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Home = () => { 
     return ( 
