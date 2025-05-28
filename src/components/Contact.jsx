@@ -8,6 +8,7 @@ import InputGroup from 'react-bootstrap/InputGroup';
 import Row from 'react-bootstrap/Row';
 import { Container } from 'react-bootstrap';
 import './style.css'; 
+import { personal_info } from '../data/Info';
 
 const Contact = () => { 
     const [validated, setValidated] = useState(false);
@@ -25,7 +26,7 @@ const Contact = () => {
       }
       else{
         
-        const mailtoLink = `mailto:mooncatch91031@gmail.com?subject=Message from ${form.name}&body=${encodeURIComponent(form.message)}%0D%0AFrom: ${form.email}`;
+        const mailtoLink = `mailto:${personal_info.email}?subject=Message from ${form.name}&body=${encodeURIComponent(form.message)}%0D%0AFrom: ${form.email}`;
         console.log(mailtoLink)
         window.location.href = mailtoLink;
       }
@@ -87,7 +88,7 @@ const Contact = () => {
                         </InputGroup>
                     </Form.Group>
                 
-                <Button type="submit">Send</Button>
+                <Button type="submit">Send to {personal_info.name}</Button>
                 
                 </Form>
                     </Col>
@@ -95,32 +96,24 @@ const Contact = () => {
                         <div style={{ fontSize: '18px'}}>
                             <ul style={{listStyleType: 'none', lineHeight: 3}}>
                                 <li>
-                                    <i class="bi bi-envelope"></i> mooncatch91031@gmail.com
+                                    <i class="bi bi-envelope"></i>
+                                    &nbsp;&nbsp;{personal_info.email}
                                 </li>
                                 <li>
                                     <i class="bi bi-github"></i>&nbsp; 
-                                    <a href='https://github.com/DragonKnight0522' target='_blank' rel="noreferrer" style={{textDecoration:'none', color:'inherit'}}>
-                                        Github / DragonKnight0522
+                                    <a href={personal_info.github} target='_blank' rel="noreferrer" style={{textDecoration:'none', color:'inherit'}}>
+                                        &nbsp;{personal_info.github}
                                     </a>
                                 </li>
                                 <li>
                                     <i class="bi bi-book"></i>&nbsp;  
                                     <a href='/temp.pdf' target='_blank' rel="noopener noreferrer" style={{textDecoration:'none', color:"inherit"}}>
-                                        My Resume
+                                        &nbsp;Resume - {personal_info.name}
                                     </a>
                                 </li>
                             </ul>
                             
                             
-                        {/* <Nav.Link href="https://twitter.com/HaradaK92" target='_blank'>
-                        <i class="bi bi-twitter"></i>
-                        </Nav.Link>
-                        <Nav.Link href="https://github.com/HaradaK92" target='_blank'>
-                        <i class="bi bi-envelope"></i>
-                        </Nav.Link>
-                        <Nav.Link href="https://resume.com/HaradaK92" target='_blank'>
-                        <i class="bi bi-envelope"></i>
-                        </Nav.Link> */}
                         </div>
                     </Col>
                 </Row> 

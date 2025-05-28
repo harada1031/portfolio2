@@ -7,6 +7,7 @@ import { faBook }
 import './style.css'; 
 import { Nav } from 'react-bootstrap';
 import { faGithub, faGoogle, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { personal_info } from '../data/Info';
 
 const Home = () => { 
     return ( 
@@ -25,17 +26,17 @@ const Home = () => {
                         When we unite in thought, even the moon becomes ours to grasp.
                     </p>
                     <h1 className="display-5 mt-4 text-white" style={{fontFamily:'system-ui, sans-sripf', fontWeight:700}}> 
-                        Moon Catch 
+                        {personal_info.name} 
                     </h1> 
                     <p>Full Stack Developer</p>
                     <Nav className="display-6 text-white justify-content-center">
-                        <Nav.Link href="https://google.com/HaradaK92" target='_blank'>
+                        <Nav.Link href={personal_info.email} target='_blank'>
                         <FontAwesomeIcon icon={faGoogle} />
                         </Nav.Link>
-                        <Nav.Link href="https://twitter.com/HaradaK92" target='_blank'>
+                        <Nav.Link href="https://Linkedin.com/ddd" target='_blank'>
                         <FontAwesomeIcon icon={faLinkedin} />
                         </Nav.Link>
-                        <Nav.Link href="https://github.com/DragonKnight0522" target='_blank'>
+                        <Nav.Link href={personal_info.github} target='_blank'>
                         <FontAwesomeIcon icon={faGithub} />
                         </Nav.Link>
                         <Nav.Link href="./temp.pdf" target='_blank'>
