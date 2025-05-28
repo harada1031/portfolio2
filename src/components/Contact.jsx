@@ -92,7 +92,7 @@ const Contact = () => {
                 </Form>
                     </Col>
                     <Col md={6} className="contact-details">
-                        <div style={{ fontSize: '20px'}}>
+                        <div style={{ fontSize: '18px'}}>
                             <ul style={{listStyleType: 'none', lineHeight: 3}}>
                                 <li>
                                     <i class="bi bi-envelope"></i> mooncatch91031@gmail.com
@@ -100,7 +100,7 @@ const Contact = () => {
                                 <li>
                                     <i class="bi bi-github"></i>&nbsp; 
                                     <a href='https://github.com/DragonKnight0522' target='_blank' rel="noreferrer" style={{textDecoration:'none', color:'inherit'}}>
-                                        https://github.com/DragonKnight0522'
+                                        Github / DragonKnight0522
                                     </a>
                                 </li>
                                 <li>

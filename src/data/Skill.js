@@ -5,11 +5,11 @@ export const skills_data= [
         dataset:[
           {name: 'React', years: 7, img:'./icons/react.webp'},
           {name: 'Redux', years: 7, img:'./icons/redux.webp'},
-          {name: 'JavaScript', years: 9, img:'./icons/javascript.webp'},
-          {name: 'Typescript', years: 6, img:'./icons/typescript.webp'},
+          {name: 'NextJS', years: 5, img:'./icons/nextjs.webp'},
           {name: 'Sass', years: 6, img:'./icons/sass.webp'},
-          {name: 'Bootstrap', years: 6, img:'./icons/bootstrap.webp'},
           {name: 'TailwindCSS', years: 5, img:'./icons/tailwind.webp'},
+          {name: 'Bootstrap', years: 6, img:'./icons/bootstrap.webp'},
+          {name: 'Material UI', years: 5, img:'./icons/materialui.webp'},
         ]
       },
       {
@@ -20,8 +20,9 @@ export const skills_data= [
           {name: 'ExpressJS', years: 7, img:'./icons/express.webp'},
           {name: 'Django', years: 7, img:'./icons/django.webp'},
           {name: 'Flask', years: 5, img:'./icons/flask.webp'},
+          {name: 'FastAPI', years: 7, img:'./icons/fastapi.webp'},
           {name: 'RESTful API', years: 7, img:'./icons/restfulapi.webp'},
-          {name: 'Graphql', years: 7, img:'./icons/graphql.webp'},
+          {name: 'Graphql', years: 5, img:'./icons/graphql.webp'},
         ]
       },
       {

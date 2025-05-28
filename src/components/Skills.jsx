@@ -35,12 +35,12 @@ const Skills = () => {
                                             as="li" 
                                             className="mt-1 d-flex border-0 align-items-center" style={{backgroundColor:'#ddd'}}>
                                                 <div className='image-container'>
-                                                    <img src={item.img} alt={item.name} height={70} width={70} 
+                                                    <img src={item.img} alt={item.name} height={60} width={60} 
                                                     />
                                                 </div>
-                                                <div className='m-2'>
+                                                <div className='mx-2'>
                                                     <div className="fw-bold mb-2">{item.name}</div>
-                                                    <Button variant='outline-dark'>
+                                                    <Button variant='outline-dark' size='sm'>
                                                         <Badge 
                                                             bg={item.years>5 ? 'info' : item.years > 3 ? 'success' : 'warning'}
                                                             text={item.years>5 ? 'white' : item.years > 3 ? 'white' : 'dark'}
